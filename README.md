@@ -7,8 +7,8 @@ En este repositorio dejaré los códigos y archivos utilizados en las clases de 
 - Presentación de la asignatura. Puede descargar el programa [aquí](clase_1/Aplicaciones_III_Perelli.pdf). 
 - Revisión del [calendario](calendario.pdf)
 #### Bloque 2:
--Breve explicación de los diferentes usos y significados de los bits.
--Ejercicio en clases #1: Semáforo
+- Breve explicación de los diferentes usos y significados de los bits.
+- Ejercicio en clases #1: Semáforo
   - ¿Cómo funciona un semáforo?
   - Objetivo: Encender secuencialmente 3 LEDs (rojo, amarillo y verde) tal y como un semáforo vial. Recuerde utilizar *pinMode*, y *digitalWrite*.
   - Recurso 1: puede simular su esquematico en [Tinkercad](http://www.tinkertcad.com/).
