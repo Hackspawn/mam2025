@@ -4,8 +4,8 @@ En este repositorio dejaré los códigos y archivos utilizados en las clases de 
 ### Clase #1:
 ![Esquemático](clase_1/semaforo.png)
 #### Bloque 1:
--Presentación de la asignatura. Puede descargar el programa [aquí](clase_1/Aplicaciones_III_Perelli.pdf). 
--Revisión del [calendario](calendario.pdf)
+- Presentación de la asignatura. Puede descargar el programa [aquí](clase_1/Aplicaciones_III_Perelli.pdf). 
+- Revisión del [calendario](calendario.pdf)
 #### Bloque 2:
 -Breve explicación de los diferentes usos y significados de los bits.
 -Ejercicio en clases #1: Semáforo
