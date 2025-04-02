@@ -1,5 +1,5 @@
 # Clase #1:
-![Esquemático](clase_1/semaforo.png)
+![Esquemático](semaforo.png)
 #### Bloque 1:
 - Presentación de la asignatura. Puede descargar el programa [aquí](Aplicaciones_III_Perelli.pdf). 
 - Revisión del calendario.
