@@ -1,6 +1,6 @@
-#Clase #3
+# Clase #3
 
-####Bloque 1: Introducción a [Sonic Pi](https://sonic-pi.net)
+#### Bloque 1: Introducción a [Sonic Pi](https://sonic-pi.net)
 - Funciones *use_bpm*; *play*; *sleep*; *end*.
 - Agregar un Sintetizador utilizando *use_synth*.
 ####Bloque 2: Arduino + Sonic Pi (Parte 1)
