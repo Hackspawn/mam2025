@@ -1,4 +1,4 @@
-# Clase #3
+# Clase #3 y #4
 
 #### Bloque 1: Introducción a [Sonic Pi](https://sonic-pi.net)
 - Funciones *use_bpm*; *play*; *sleep*; *end*.
