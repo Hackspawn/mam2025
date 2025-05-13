@@ -13,6 +13,8 @@ El objetivo de este trabajo es trabajar con Sensores (LDR, Ultrasonico o Distanc
 - 1 chasis con ruedas
 - Jumpers + fuente de alimentación (batería o power bank)
 
+![Esquema base de los vehículos 1, 2 y 3](vehiculo_bb.png)
+
 ### 🚗 Vehículo 1 – "Miedo (Fear)" (Conexiones Inhibitorias)
 
 **Comportamiento:** Se aleja de la luz. A más luz, menos velocidad en ese motor.
