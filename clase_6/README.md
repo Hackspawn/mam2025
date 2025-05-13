@@ -1,6 +1,6 @@
 # Clase #6 Vehículos de Braitenberg
 
-Basados en el libro VEHICLES de Valentino Braitenberg (1984) se Diseñan prototípos de vehículos basados en la conceptualización de un listado de Emociones.
+Basados en el libro **VEHICLES de Valentino Braitenberg (1984)** se Diseñan prototípos de vehículos basados en la conceptualización de un listado de Emociones.
 Como base se dejan disponibles cinco prototípos de Vehículos para trabajar con ellos, modificarlos o proponer otras conceptualizaciones de emociones.
 
 El objetivo de este trabajo es trabajar con Sensores (LDR, Ultrasonico o Distancia IR) como input o estímulo de las emociones. La respuesta del vehículo, según su configuración/emoción, determina el uso de H-Bridge para la gestion de motores DC.
