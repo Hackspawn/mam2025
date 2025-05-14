@@ -35,10 +35,11 @@ void loop(){
   // Abrir archivo para escribir (modo append)
   dataFile = SD.open("data.txt", FILE_WRITE);
   if (dataFile) {
-    dataFile.print("Voltaje: "); dataFile.print(voltage); dataFile.println(" V");
-    dataFile.print("Temp C: "); dataFile.print(temperatureC); dataFile.println(" C");
-    dataFile.print("Temp F: "); dataFile.print(temperatureF); dataFile.println(" F");
-    dataFile.println("---");
+    dataFile.print(voltage); dataFile.print(","); dataFile.print(temperatureC); dataFile.print(","); dataFile.println(temperatureF);
+    //dataFile.print("Voltaje: "); dataFile.print(voltage); dataFile.println(" V");
+    //dataFile.print("Temp C: "); dataFile.print(temperatureC); dataFile.println(" C");
+    //dataFile.print("Temp F: "); dataFile.print(temperatureF); dataFile.println(" F");
+    //dataFile.println("---");
     dataFile.close(); // Importante: cerrar el archivo
   } else {
     Serial.println("Error al abrir data.txt");
