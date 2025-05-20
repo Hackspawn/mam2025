@@ -66,3 +66,34 @@ sudo apt install ffmpeg
 - [telepot GitHub](https://github.com/nickoala/telepot)
 - [FFmpeg Documentation](https://ffmpeg.org/documentation.html)
 
+## Apéndice: Entorno virtual y configuración del proyecto (Entornos Virtuales)
+
+### ¿Por qué usar un entorno virtual en Python?
+Los entornos virtuales permiten aislar las dependencias de un proyecto para evitar conflictos entre versiones de paquetes. Es una buena práctica para trabajar de forma ordenada y reproducible.
+
+### Crear entorno virtual
+```bash
+sudo apt install python3-venv
+python3 -m venv botenv
+source botenv/bin/activate
+```
+
+### Instalar dependencias
+```bash
+pip install telepot RPi.GPIO
+```
+
+### Instalar Visual Studio Code
+```bash
+sudo apt update
+sudo apt install code
+```
+
+### Cargar el archivo del bot
+1. Abrir Visual Studio Code:
+```bash
+code
+```
+2. Instalar la extensión de Python desde el marketplace.
+3. Abrir el archivo `bot_led_video.py` desde tu proyecto.
+4. Ejecutar el script asegurándote de estar en el entorno virtual activo como interprete del proyecto.
