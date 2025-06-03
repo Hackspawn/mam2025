@@ -1,6 +1,6 @@
 # Clase #9 Arduino + Processing: Control de Opacidad con Sensor de Distancia
 
-Este proyecto conecta un sensor de distancia **Sharp GP2Y0A21, GP2Y0A02 o GP2Y0A710** a un **Arduino**, y visualiza la lectura en **Processing** controlando la **opacidad de una imagen** según la cercanía de un objeto al sensor.
+Este proyecto conecta un sensor de distancia **Sharp GP2Y0A21, GP2Y0A02 o GP2Y0A710** (u otro) a un **Arduino**, y visualiza la lectura en **Processing** controlando la **opacidad de una imagen** según la cercanía de un objeto al sensor.
 
 ---
 
