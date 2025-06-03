@@ -25,7 +25,7 @@ Este proyecto conecta un sensor de distancia **Sharp GP2Y0A21, GP2Y0A02 o GP2Y0A
 
 ---
 
-## 1️⃣ Código Arduino (envía valor mapeado)
+## Código Arduino (envía valor mapeado)
 
 ```cpp
 void setup() {
