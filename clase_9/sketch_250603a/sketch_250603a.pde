@@ -7,6 +7,7 @@ PImage img;          // Imagen a mostrar
 
 void setup() {
   size(1024, 768);
+  // fullScreen(); //en caso de usar pantalla completa
   println(Serial.list()); // Muestra los puertos disponibles
   myPort = new Serial(this, Serial.list()[0], 9600); // Ajustar índice según tu equipo
   myPort.bufferUntil('\n');
