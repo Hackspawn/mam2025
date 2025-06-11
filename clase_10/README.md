@@ -8,7 +8,7 @@ Este repositorio incluye un sketch de Processing que permite visualizar una nube
 
 - **Hardware**: Microsoft Kinect v1 modelo 1414  
 - **Software**:  
-  - Processing 3.x  
+  - Processing 3.x / 4.x
   - Librería `org.openkinect.processing`  
   - Librería `Syphon for Processing`  
   - Drivers de **libfreenect** instalados correctamente
