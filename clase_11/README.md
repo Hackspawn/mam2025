@@ -1,4 +1,4 @@
-# Clase #11: Identificadores de Radiofrecuencia e Internet de las cosas (IoT) 
+# Clase #11: Identificadores de Radiofrecuencia (RFID) e Internet de las cosas (IoT) 
 
 ## 🌐 ¿Qué es un WebSocket?
 
