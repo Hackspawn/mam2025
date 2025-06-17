@@ -44,6 +44,8 @@ ESP32 y ESP8266 son ideales para proyectos IoT debido a su bajo costo y capacida
 
 ## 🛠️ Proyecto: RFID + ESP32 + Servomotor
 
+![Esquema del proyecto](proyecto_11.png)
+
 ### Descripción general
 
 - **ESP32 #1 (RFID):** Lee tarjetas RFID (Mifare Classic) con un lector RC522 y envía el UID por WebSocket a la otra placa.
@@ -68,10 +70,36 @@ ESP32 y ESP8266 son ideales para proyectos IoT debido a su bajo costo y capacida
 - `WiFi.h`
 - `WebSocketsClient.h`
 
+### Conexión RC522 ↔ ESP32
+
+| RC522 (Lector RFID) | ESP32           | Descripción             |
+|---------------------|------------------|--------------------------|
+| SDA                 | GPIO 21          | Pin de selección (SS)   |
+| SCK                 | GPIO 18          | Reloj SPI                |
+| MOSI                | GPIO 23          | Datos hacia el módulo   |
+| MISO                | GPIO 19          | Datos desde el módulo   |
+| IRQ                 | No conectado     | (opcional)               |
+| GND                 | GND              | Tierra                   |
+| RST                 | GPIO 22          | Reset del lector         |
+| 3.3V                | 3.3V             | Alimentación             |
+
+> ⚠️ **Nota:** El RC522 debe conectarse a **3.3V**, no a 5V.
+
 #### ESP32 #2 (Servo)
 
 - `Servo.h`
 - `WiFi.h`
 - `WebSocketsServer.h`
+
+### Conexión Servomotor ↔ ESP32
+
+| Servomotor  | ESP32           | Descripción                   |
+|-------------|------------------|-------------------------------|
+| Señal       | GPIO 13          | PWM al servo                  |
+| VCC         | Fuente 5V externa| Alimentación (NO desde ESP32)|
+| GND         | GND compartido   | Tierra común con ESP32        |
+
+> 🔋 **Importante:** Usar fuente externa (5V, 2A mínimo) si usas servos de alto torque como por ejemplo MG996R.
+> Conecta la **GND de la fuente externa a la GND de la ESP32** para evitar bucles de tierra.
 
 Todas las bibliotecas son instalables desde el **Library Manager** del Arduino IDE.
