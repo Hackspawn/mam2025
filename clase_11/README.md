@@ -66,9 +66,9 @@ ESP32 y ESP8266 son ideales para proyectos IoT debido a su bajo costo y capacida
 
 #### ESP32 #1 (RFID)
 
-- `MFRC522`
-- `WiFi.h`
-- `WebSocketsClient.h`
+- `MFRC522` (MFRC522 de GithubCommunity)
+- `WiFi.h` (WiFi de Arduino)
+- `WebSocketsClient.h` (WebSockets de Markus Sattler)
 
 ### Conexión RC522 ↔ ESP32
 
@@ -87,9 +87,9 @@ ESP32 y ESP8266 son ideales para proyectos IoT debido a su bajo costo y capacida
 
 #### ESP32 #2 (Servo)
 
-- `Servo.h`
-- `WiFi.h`
-- `WebSocketsServer.h`
+- `Servo.h` (Servo de Arduino)
+- `WiFi.h` (WiFi de Arduino)
+- `WebSocketsServer.h` (WebSockets de Markus Sattler)
 
 ### Conexión Servomotor ↔ ESP32
 
