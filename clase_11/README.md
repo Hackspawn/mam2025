@@ -39,7 +39,9 @@ ESP32 y ESP8266 son ideales para proyectos IoT debido a su bajo costo y capacida
 4. Luego, ve a `Herramientas > Placa > Gestor de placas`
 5. Instala **esp32** y/o **esp8266**
 6. Selecciona tu placa desde el menú `Herramientas > Placa`
+7. (Para Efectos de este tutorial) En Arduino IDE vas a conectar la placa `ESP32-WROOM-DA` (Tal como en la imagen)
 
+![Conexión Arduino](ARDUINO.png)
 ---
 
 ## 🛠️ Proyecto: RFID + ESP32 + Servomotor
