@@ -25,7 +25,7 @@ void onWebSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t leng
 
 void setup() {
   Serial.begin(115200);
-  myServo.setPeriodHertz(50);  // 👈 necesario para ESP32
+  myServo.setPeriodHertz(50);  // necesario para ESP32
   myServo.attach(13);
 
   WiFi.begin(ssid, password);
