@@ -87,7 +87,7 @@ ESP32 y ESP8266 son ideales para proyectos IoT debido a su bajo costo y capacida
 
 #### ESP32 #2 (Servo)
 
-- `Servo.h` (Servo de Arduino)
+- `Servo.h` (Servo de Arduino) / `ESP32Servo.h` (ESP32Servo Kevin Harrington, John K. Bennett, etc.)
 - `WiFi.h` (WiFi de Arduino)
 - `WebSocketsServer.h` (WebSockets de Markus Sattler)
 
