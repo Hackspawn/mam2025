@@ -23,7 +23,22 @@ void setup() {
   while (WiFi.status() != WL_CONNECTED) delay(500);
 
   webSocket.begin(host, port, "/");
-  webSocket.onEvent([](WStype_t type, uint8_t * payload, size_t length) {}, nullptr);
+  webSocket.onEvent([](WStype_t type, uint8_t * payload, size_t length) {
+  // Aquí puedes manejar los eventos del WebSocket
+  switch(type) {
+    case WStype_CONNECTED:
+      Serial.println("Conectado al servidor WebSocket");
+      break;
+    case WStype_DISCONNECTED:
+      Serial.println("Desconectado del servidor WebSocket");
+      break;
+    case WStype_TEXT:
+      Serial.printf("Mensaje recibido: %s\n", payload);
+      break;
+    default:
+      break;
+  }
+});
   webSocket.setReconnectInterval(5000);
 }
 
