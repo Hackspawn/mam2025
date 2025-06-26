@@ -51,6 +51,7 @@ En esta clase aprenderemos a controlar una tira LED WS2812B mediante una **ESP32
 ## 🔥 Instalación de WLED
 
 ### 1. Descargar WLED 0.13.3 para ESP32
+- **IMPORTANTE** debes `usar Google Chrome`.
 - Visita: https://install.wled.me
 - Elige la versión **ESP32 (audio reactive)**
 
