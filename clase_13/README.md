@@ -13,36 +13,32 @@ Estos métodos permiten combinar programación musical, interacción en tiempo r
 
 ## 📁 Estructura del Repositorio
 
-├── samples/ # Carpeta con archivos de audio .wav
-│ └── sonido1.wav
-├── data/ # Carpeta con archivo CSV de control
-│ └── sonidos.csv
-├── 1_sample.rb # Reproducción de samples
-├── 2_hz_to_midi.rb # Conversión de Hz a nota MIDI
-├── 3_osc_touchosc.rb # Control mediante mensajes OSC
-└── 4_csv_player.rb # Lectura de samples desde archivo CSV
-
+| Carpeta / Archivo         | Descripción                                               |
+|---------------------------|-----------------------------------------------------------|
+| `samples/`                | Carpeta con archivos de audio `.wav`                      |
+| `samples/sonido1.wav`     | Sample de ejemplo para reproducción                       |
+| `data/`                   | Carpeta con archivo CSV de control                        |
+| `data/sonidos.csv`        | CSV con rutas de samples y valores de BPM                 |
+| `1_sample.rb`             | Script básico para reproducir un sample con `use_bpm`     |
+| `2_hz_to_midi.rb`         | Script para convertir Hz a notas MIDI con envolvente ADSR |
+| `3_osc_touchosc.rb`       | Control remoto con mensajes OSC desde TouchOSC            |
+| `4_csv_player.rb`         | Reproduce samples a partir de datos contenidos en un CSV  |
 
 ---
 
 ## 🧱 Requisitos
 
-Para poder utilizar los ejemplos incluidos, asegúrate de contar con:
-
-- [Sonic Pi](https://sonic-pi.net/) (versión 3.2 o superior)
-- Ruby instalado en tu sistema (para la lectura avanzada de rutas y CSV, si usas fuera de Sonic Pi)
-- [TouchOSC](https://hexler.net/touchosc) o app OSC similar (opcional)
-- Archivos `.wav` ubicados correctamente en la carpeta `/samples`
-- Archivo CSV llamado `sonidos.csv` ubicado en `/data`
+- [Sonic Pi](https://sonic-pi.net/) (v3.2 o superior)
+- Ruby instalado en el sistema (si se usa fuera de Sonic Pi)
+- [TouchOSC](https://hexler.net/touchosc) (opcional)
+- Archivos `.wav` correctamente ubicados en la carpeta `/samples`
+- Archivo `sonidos.csv` en la carpeta `/data`
 
 ---
 
 ## 🧪 Ejercicios Incluidos
 
 ### `1_sample.rb` – Uso de Samples de Audio
-
-- Reproduce un archivo de audio `.wav` desde una carpeta local.
-- Ajusta el tempo usando `use_bpm`.
 
 ```ruby
 use_bpm 90
