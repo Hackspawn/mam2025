@@ -12,7 +12,7 @@ Este repositorio contiene el material de la Clase 14 del curso **Aplicaciones Te
 
 ## 📄 Presentación
 
-Puedes revisar la presentación de la clase en la carpeta [`presentación/digifab.pdf`](presentación/digifab.pdf).
+Puedes revisar la presentación de la clase en la carpeta [`presenta/digifab.pdf`](presenta/digifab.pdf).
 
 ## 🧰 Contenidos abordados
 
