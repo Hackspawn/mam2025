@@ -1,0 +1,37 @@
+a,Mostrar menú principal
+b,Iniciar secuencia
+c,Detener proceso
+d,Encender luz roja
+e,Apagar luz roja
+f,Activar sonido
+g,Desactivar sonido
+h,Mostrar ayuda
+i,Imprimir estado
+j,Reiniciar módulo
+k,Leer sensores
+l,Guardar datos
+m,Mostrar temperatura
+n,Mostrar presión
+o,Enviar reporte
+p,Pausar sistema
+q,Salir del sistema
+r,Reiniciar sistema
+s,Subir volumen
+t,Bajar volumen
+u,Modo automático
+v,Modo manual
+w,Ver log
+x,Limpiar pantalla
+y,Sincronizar red
+z,Modo prueba
+1,Ejecutar macro 1
+2,Ejecutar macro 2
+3,Ejecutar macro 3
+4,Ejecutar macro 4
+5,Ejecutar macro 5
+6,Ejecutar macro 6
+7,Ejecutar macro 7
+8,Ejecutar macro 8
+9,Ejecutar macro 9
+0,Ejecutar macro 0
+
